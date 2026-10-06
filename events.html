@@ -189,6 +189,20 @@
       <input type="text" name="name" placeholder="Your name" required="" class="border-2 border-white/30 bg-transparent px-5 py-4 font-body text-white placeholder-white/50 focus:border-accent-400 focus:outline-none md:col-span-1"/>
       <input type="email" name="email" placeholder="Email address" required="" class="border-2 border-white/30 bg-transparent px-5 py-4 font-body text-white placeholder-white/50 focus:border-accent-400 focus:outline-none md:col-span-1"/>
       <input type="text" name="event" placeholder="Event name and date" class="border-2 border-white/30 bg-transparent px-5 py-4 font-body text-white placeholder-white/50 focus:border-accent-400 focus:outline-none md:col-span-2"/>
+      <div class="md:col-span-2">
+        <label for="events-referral" class="mb-1 block font-display text-xs uppercase tracking-widest text-white/80">How did you hear about us?</label>
+        <select id="events-referral" name="How did you hear about us?" class="w-full border-2 border-white/30 bg-ink px-4 py-3 font-body text-white focus:border-accent-400 focus:outline-none">
+          <option value="">Select one</option>
+          <option value="ChatGPT">ChatGPT</option>
+          <option value="Google search">Google search</option>
+          <option value="Another AI assistant">Another AI assistant</option>
+          <option value="Referral from a client or colleague">Referral from a client or colleague</option>
+          <option value="Press or media coverage">Press or media coverage</option>
+          <option value="Social media">Social media</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
       <textarea name="message" rows="4" placeholder="Tell us about the event" required="" class="border-2 border-white/30 bg-transparent px-5 py-4 font-body text-white placeholder-white/50 focus:border-accent-400 focus:outline-none md:col-span-2"></textarea>
 
       <button type="submit" class="btn w-full md:col-span-2 md:w-auto">Send It Over</button>
